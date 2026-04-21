@@ -1,8 +1,4 @@
-import requests
-import asyncio
-from telegram import Update
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
-
+import os
 OPENROUTER_API_KEY = "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"
 TELEGRAM_TOKEN = "8771381084:AAEDz9ycvsogdyxPMKRkpTA9__1F9ESeBu0"
 
